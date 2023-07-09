@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Tilt</title>
+</head>
+<body>
+    <div id="current-time"></div>
+    <div id="user-time"></div>
+    <form>
+        <label for="cd">Select the time: </label>
+        <div name="cd">
+            <label for="cd-mm">MM</label>
+            <input id="cd-mm" name="cd-mm" type="number" min="0" step="1" max="60" value="0">
+            <label for="cd-ss">SS</label>
+            <input id="cd-ss" name="cd-ss" type="number" min="0" step="1" max="60" value="0">
+            <button id="cd-button">Ok</button>
+        </div>
+    </form>
+</body>
+<script src="popup.js"></script>
+</html>
